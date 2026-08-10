@@ -1,0 +1,126 @@
+[
+  {
+    "id": "curry",
+    "nom": "Poulet curry coco",
+    "origine": "Asiatique",
+    "type": "Plat",
+    "temps": 35,
+    "base": 4,
+    "ingredients": [
+      {
+        "nom": "Blanc de poulet",
+        "quantite": 600,
+        "unite": "g",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "Lait de coco",
+        "quantite": 400,
+        "unite": "ml",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "Oignon",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "Riz",
+        "quantite": 300,
+        "unite": "g",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "carbo",
+    "nom": "Spaghetti carbonara",
+    "origine": "Italienne",
+    "type": "Plat",
+    "temps": 25,
+    "base": 4,
+    "ingredients": [
+      {
+        "nom": "Spaghetti",
+        "quantite": 400,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "Guanciale",
+        "quantite": 180,
+        "unite": "g",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "Oeuf",
+        "quantite": 4,
+        "unite": "piece",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "Pecorino",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      }
+    ]
+  },
+  {
+    "id": "pancakes",
+    "nom": "Pancakes",
+    "origine": "Américaine",
+    "type": "Petit Déjeuner",
+    "temps": 20,
+    "base": 4,
+    "ingredients": [
+      {
+        "nom": "Farine",
+        "quantite": 250,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "Lait",
+        "quantite": 300,
+        "unite": "ml",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "Oeuf",
+        "quantite": 2,
+        "unite": "piece",
+        "categorie": "Produits laitiers"
+      }
+    ]
+  },
+  {
+    "id": "extra",
+    "nom": "Pâte feuilletée maison",
+    "origine": "Française",
+    "type": "Extra",
+    "temps": 45,
+    "base": 4,
+    "ingredients": [
+      {
+        "nom": "Farine",
+        "quantite": 500,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "Beurre",
+        "quantite": 250,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "Eau",
+        "quantite": 250,
+        "unite": "ml",
+        "categorie": "Boissons"
+      }
+    ]
+  }
+]

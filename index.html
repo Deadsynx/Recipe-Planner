@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#fff4ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Recipe Planner">
+<title>Recipe Planner</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div><h1>Recipe Planner</h1><p>Menus, agenda et courses</p></div></header>
+<nav>
+<button data-tab="recipes" class="active">Recettes</button>
+<button data-tab="agenda">Agenda</button>
+<button data-tab="shopping">Courses</button>
+<button data-tab="data">Données</button>
+</nav>
+<main>
+<section id="recipes" class="page active">
+<div class="panel">
+<h2>Trouver une recette</h2>
+<div class="grid">
+<label>Origine<select id="origin"></select></label>
+<label>Personnes<input id="people" type="number" min="1" value="4"></label>
+<label>Temps<select id="time"><option value="any">Peu importe</option><option value="lt20">&lt; 20 min</option><option value="20-40">20 à 40 min</option><option value="40-60">40 à 60 min</option><option value="gt60">&gt; 60 min</option></select></label>
+<label>Type<select id="type"><option>Peu importe</option><option>Apéro</option><option>Entrée</option><option>Plat</option><option>Soupe</option><option>Salade</option><option>Dessert</option><option>Gouter</option><option>Snack</option><option>Petit Déjeuner</option><option>Extra</option></select></label>
+</div>
+<div class="row"><button id="find" class="primary">Trouver</button><button id="random">Surprends-moi</button></div>
+</div>
+<div class="panel card">
+<span id="badge">—</span><h2 id="rname">Aucune recette</h2><p id="rmeta"></p>
+<div class="row"><button id="addAgenda" class="primary">Ajouter à l'agenda</button><button id="addExtra" class="hidden">Ajouter en Extra</button></div>
+</div>
+</section>
+
+<section id="agenda" class="page">
+<div class="panel"><h2>Agenda</h2><div class="scroll"><table id="agendaTable"><thead><tr><th></th><th>Lundi</th><th>Mardi</th><th>Mercredi</th><th>Jeudi</th><th>Vendredi</th><th>Samedi</th><th>Dimanche</th></tr></thead><tbody></tbody></table></div>
+<h3>Extra</h3><div id="extras"></div><button id="clearAgenda">Vider l'agenda</button></div>
+</section>
+
+<section id="shopping" class="page">
+<div class="panel"><div class="row between"><h2>Liste de courses</h2><button id="genShop" class="primary">Générer</button></div>
+<div class="manual"><input id="mq" type="number" min="0" value="1"><select id="mu"><option>piece</option><option>g</option><option>ml</option></select><input id="mp" placeholder="Produit"><select id="mc"></select><button id="madd">Ajouter</button></div>
+<div id="shoppingList"></div></div>
+</section>
+
+<section id="data" class="page">
+<div class="panel"><h2>Données</h2><p>Stockage local via IndexedDB.</p>
+<div class="row"><button id="export" class="primary">Exporter JSON</button><label class="filebtn">Importer JSON<input id="import" type="file" accept=".json"></label></div>
+<hr><h3>Ajouter une recette</h3>
+<div class="grid"><input id="nn" placeholder="Nom"><input id="no" placeholder="Origine"><select id="nt"><option>Plat</option><option>Dessert</option><option>Salade</option><option>Soupe</option><option>Snack</option><option>Petit Déjeuner</option><option>Gouter</option><option>Apéro</option><option>Entrée</option><option>Extra</option></select><input id="ntime" type="number" placeholder="Temps min"><input id="nbase" type="number" min="1" value="4"></div>
+<h4>Ingrédients</h4><div class="manual"><input id="iq" type="number" min="0" value="1"><select id="iu"><option>piece</option><option>g</option><option>ml</option></select><input id="in" placeholder="Ingrédient"><select id="ic"></select><button id="iadd">Ajouter</button></div><div id="draft"></div>
+<button id="saveRecipe" class="primary">Enregistrer la recette</button>
+</div>
+</section>
+</main>
+
+<dialog id="dlg"><form method="dialog"><h3>Ajouter à l'agenda</h3><label>Jour<select id="dDay"></select></label><label>Repas<select id="dMeal"></select></label><div class="row"><button value="cancel">Annuler</button><button id="dOk" class="primary">Ajouter</button></div></form></dialog>
+<div id="toast"></div>
+<script src="app.js"></script>
+</body></html>
