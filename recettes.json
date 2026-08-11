@@ -1,0 +1,2362 @@
+[
+  {
+    "id": "arancini",
+    "nom": "ARANCINI",
+    "origine": "Italien",
+    "type": "Entrée",
+    "temps": 60,
+    "base": 4,
+    "ingredients": [
+      {
+        "nom": "riz à risotto (carnaroli ou arborio)",
+        "quantite": 250,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "bouillon de légumes",
+        "quantite": 750,
+        "unite": "ml",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "beurre",
+        "quantite": 40,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "parmesan râpé",
+        "quantite": 50,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 3,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "sauce tomate",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "mozzarella",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "jambon cuit ou pancetta",
+        "quantite": 80,
+        "unite": "g",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "chapelure ou panko",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "huile de friture",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "bagels-maison",
+    "nom": "BAGELS MAISON",
+    "origine": "Français",
+    "type": "Extra",
+    "temps": 151,
+    "base": 8,
+    "ingredients": [
+      {
+        "nom": "farine de blé T55 ou T65",
+        "quantite": 500,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "levure boulangère sèche",
+        "quantite": 7,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "sel",
+        "quantite": 10,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 10,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "huile d’olive",
+        "quantite": 30,
+        "unite": "ml",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "miel",
+        "quantite": 15,
+        "unite": "g",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "baguette-maison",
+    "nom": "BAGUETTE MAISON",
+    "origine": "Français",
+    "type": "Extra",
+    "temps": 165,
+    "base": 2,
+    "ingredients": [
+      {
+        "nom": "farine de blé T55 de préférence",
+        "quantite": 500,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "sel",
+        "quantite": 10,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 10,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "levure boulangère fraîche",
+        "quantite": 10,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      }
+    ]
+  },
+  {
+    "id": "banana-bread-moelleux",
+    "nom": "BANANA BREAD MOELLEUX",
+    "origine": "Américain",
+    "type": "Gouter",
+    "temps": 70,
+    "base": 12,
+    "ingredients": [
+      {
+        "nom": "banane",
+        "quantite": 3,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "farine",
+        "quantite": 200,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "sucre roux",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sucre blanc",
+        "quantite": 80,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "beurre doux",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 2,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "extrait de vanille",
+        "quantite": 5,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "bicarbonate alimentaire",
+        "quantite": 5,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "levure chimique",
+        "quantite": 2.5,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "pépites de chocolat",
+        "quantite": 120,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      }
+    ]
+  },
+  {
+    "id": "beignets-de-carnaval",
+    "nom": "BEIGNETS DE CARNAVAL",
+    "origine": "Français",
+    "type": "Gouter",
+    "temps": 150,
+    "base": 20,
+    "ingredients": [
+      {
+        "nom": "farine",
+        "quantite": 500,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 70,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sucre vanillé",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 2,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "beurre",
+        "quantite": 70,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "levure de boulanger fraîche",
+        "quantite": 20,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "lait",
+        "quantite": 200,
+        "unite": "ml",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "huile pour friture",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sucre glace",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "beignets-fourres",
+    "nom": "BEIGNETS FOURRÉS",
+    "origine": "Français",
+    "type": "Gouter",
+    "temps": 1550,
+    "base": 12,
+    "ingredients": [
+      {
+        "nom": "farine",
+        "quantite": 500,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 70,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sucre vanillé",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 2,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "beurre",
+        "quantite": 70,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "levure de boulanger fraîche",
+        "quantite": 20,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "lait tiède",
+        "quantite": 200,
+        "unite": "ml",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "huile pour friture",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sucre glace",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "bolognaise-maison",
+    "nom": "BOLOGNAISE MAISON",
+    "origine": "Italien",
+    "type": "Plat",
+    "temps": 105,
+    "base": 1,
+    "ingredients": [
+      {
+        "nom": "viande hachée de bœuf",
+        "quantite": 500,
+        "unite": "g",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "carotte",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "céleri",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "tomates concassées",
+        "quantite": 800,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "concentré de tomate",
+        "quantite": 30,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "vin rouge",
+        "quantite": 150,
+        "unite": "ml",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "bonbons-aux-fruits",
+    "nom": "BONBONS AUX FRUITS",
+    "origine": "Français",
+    "type": "Gouter",
+    "temps": 280,
+    "base": 50,
+    "ingredients": [
+      {
+        "nom": "purée de fruits au choix",
+        "quantite": 500,
+        "unite": "g",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 400,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "jus de citron frais",
+        "quantite": 10,
+        "unite": "g",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "sucre vanillé",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "agar-agar",
+        "quantite": 6,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sucre cristallisé pour l’enrobage",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "bouchee-a-la-reine",
+    "nom": "BOUCHÉE À LA REINE",
+    "origine": "Français",
+    "type": "Plat",
+    "temps": 55,
+    "base": 6,
+    "ingredients": [
+      {
+        "nom": "bouchées à la reine",
+        "quantite": 6,
+        "unite": "piece",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "blancs de poulet ou de veau",
+        "quantite": 500,
+        "unite": "g",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "champignons de Paris",
+        "quantite": 250,
+        "unite": "g",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "beurre",
+        "quantite": 60,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "farine",
+        "quantite": 60,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "bouillon de volaille ou de légumes",
+        "quantite": 600,
+        "unite": "ml",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "crème fraîche épaisse",
+        "quantite": 200,
+        "unite": "ml",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Autres"
+      }
+    ]
+  },
+  {
+    "id": "bouchees-de-poulet-parmesan",
+    "nom": "BOUCHÉES DE POULET PARMESAN",
+    "origine": "Italien",
+    "type": "Apéro",
+    "temps": 50,
+    "base": 25,
+    "ingredients": [
+      {
+        "nom": "blanc de poulet",
+        "quantite": 500,
+        "unite": "g",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "parmesan râpé",
+        "quantite": 60,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "œufs",
+        "quantite": 2,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "farine",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "chapelure panko",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sauce tomate ou marinara",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "boulettes-bbq-aperitif",
+    "nom": "BOULETTES BBQ APÉRITIF",
+    "origine": "Américaine",
+    "type": "Apéro",
+    "temps": 40,
+    "base": 25,
+    "ingredients": [
+      {
+        "nom": "bœuf haché 5 % MG",
+        "quantite": 500,
+        "unite": "g",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "chapelure",
+        "quantite": 2,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "ail",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "persil frais haché",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "ketchup",
+        "quantite": 150,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sauce barbecue",
+        "quantite": 2,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "miel",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "boulettes-de-buf-aperitif",
+    "nom": "BOULETTES DE BŒUF APÉRITIF",
+    "origine": "Française",
+    "type": "Apéro",
+    "temps": 40,
+    "base": 25,
+    "ingredients": [
+      {
+        "nom": "bœuf haché 5 % MG",
+        "quantite": 500,
+        "unite": "g",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "chapelure",
+        "quantite": 2,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "parmesan râpé",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "ail",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "persil frais haché",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "sauce tomate",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sauce barbecue",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sauce miel-moutarde",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sauce soja-miel",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "bratkartoffeln-mit-speck",
+    "nom": "BRATKARTOFFELN MIT SPECK",
+    "origine": "Allemande",
+    "type": "Plat",
+    "temps": 50,
+    "base": 4,
+    "ingredients": [
+      {
+        "nom": "pommes de terre à chair ferme",
+        "quantite": 1000,
+        "unite": "g",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "lardons fumés",
+        "quantite": 200,
+        "unite": "g",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "oignons",
+        "quantite": 2,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "ail (facultatif)",
+        "quantite": 1,
+        "unite": "gousse",
+        "categorie": "Fruits & légumes"
+      }
+    ]
+  },
+  {
+    "id": "bretzel-aperitif",
+    "nom": "BRETZEL APÉRITIF",
+    "origine": "Allemande",
+    "type": "Apéro",
+    "temps": 125,
+    "base": 40,
+    "ingredients": [
+      {
+        "nom": "farine",
+        "quantite": 500,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "sel",
+        "quantite": 10,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "levure de boulanger",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "beurre",
+        "quantite": 30,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "bicarbonate de soude",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "bretzel-bites-au-fromage",
+    "nom": "BRETZEL BITES AU FROMAGE",
+    "origine": "Américaine",
+    "type": "Apéro",
+    "temps": 135,
+    "base": 30,
+    "ingredients": [
+      {
+        "nom": "farine",
+        "quantite": 500,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "levure boulangère sèche",
+        "quantite": 7,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "beurre",
+        "quantite": 40,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "fromage râpé (emmental, mozzarella, cheddar…)",
+        "quantite": 150,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "bicarbonate de soude",
+        "quantite": 80,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Autres"
+      }
+    ]
+  },
+  {
+    "id": "brioche-maison",
+    "nom": "BRIOCHE MAISON",
+    "origine": "Français",
+    "type": "Petit Déjeuner",
+    "temps": 230,
+    "base": 8,
+    "ingredients": [
+      {
+        "nom": "farine T45 ou T55",
+        "quantite": 500,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 70,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sel",
+        "quantite": 10,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "levure boulangère fraîche",
+        "quantite": 20,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 5,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "beurre doux",
+        "quantite": 250,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "extrait de vanille",
+        "quantite": 5,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      }
+    ]
+  },
+  {
+    "id": "brookies",
+    "nom": "BROOKIES",
+    "origine": "Américain",
+    "type": "Gouter",
+    "temps": 50,
+    "base": 12,
+    "ingredients": [
+      {
+        "nom": "chocolat noir pâtissier",
+        "quantite": 200,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "beurre doux",
+        "quantite": 270,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "sucre blanc",
+        "quantite": 230,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sucre roux",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 4,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "farine",
+        "quantite": 280,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "cacao en poudre non sucré",
+        "quantite": 20,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "extrait de vanille",
+        "quantite": 10,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "bicarbonate alimentaire",
+        "quantite": 2.5,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "pépites de chocolat",
+        "quantite": 150,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      }
+    ]
+  },
+  {
+    "id": "brownie-fondant-au-chocolat",
+    "nom": "BROWNIE FONDANT AU CHOCOLAT",
+    "origine": "Américain",
+    "type": "Gouter",
+    "temps": 40,
+    "base": 5,
+    "ingredients": [
+      {
+        "nom": "chocolat noir pâtissier",
+        "quantite": 200,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "beurre",
+        "quantite": 150,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 150,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 3,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "farine",
+        "quantite": 80,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "extrait de vanille",
+        "quantite": 5,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "noix ou pépites de chocolat",
+        "quantite": 60,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      }
+    ]
+  },
+  {
+    "id": "buche-de-noel-au-chocolat",
+    "nom": "BÛCHE DE NOËL AU CHOCOLAT",
+    "origine": "Française",
+    "type": "Dessert",
+    "temps": 140,
+    "base": 8,
+    "ingredients": [
+      {
+        "nom": "œuf",
+        "quantite": 4,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 120,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "farine",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "cacao en poudre non sucré",
+        "quantite": 20,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "chocolat noir ou au lait",
+        "quantite": 200,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "crème liquide entière 30 % MG",
+        "quantite": 200,
+        "unite": "ml",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "beurre",
+        "quantite": 30,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      }
+    ]
+  },
+  {
+    "id": "buns-maison",
+    "nom": "BUNS MAISON",
+    "origine": "Americain",
+    "type": "Extra",
+    "temps": 150,
+    "base": 8,
+    "ingredients": [
+      {
+        "nom": "farine T45 ou T55",
+        "quantite": 500,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "sel",
+        "quantite": 10,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "levure de boulanger sèche",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 50,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "lait",
+        "quantite": 250,
+        "unite": "ml",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 2,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "beurre mou",
+        "quantite": 60,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      }
+    ]
+  },
+  {
+    "id": "burrito-proteine",
+    "nom": "BURRITO PROTÉINÉ",
+    "origine": "Mexicain",
+    "type": "Petit Déjeuner",
+    "temps": 30,
+    "base": 6,
+    "ingredients": [
+      {
+        "nom": "grandes tortillas de blé complet",
+        "quantite": 6,
+        "unite": "piece",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 6,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "blanc de poulet",
+        "quantite": 200,
+        "unite": "g",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "poivron rouge",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "gousse d’ail",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "haricots noirs cuits",
+        "quantite": 120,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "fromage râpé",
+        "quantite": 60,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "fromage frais 0 %",
+        "quantite": 30,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "cumin",
+        "quantite": 5,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "paprika",
+        "quantite": 2.5,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "huile d’olive",
+        "quantite": 15,
+        "unite": "ml",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "candy-cake",
+    "nom": "CANDY CAKE",
+    "origine": "Américaine",
+    "type": "Dessert",
+    "temps": 150,
+    "base": 12,
+    "ingredients": [
+      {
+        "nom": "farine",
+        "quantite": 250,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 200,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 4,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "beurre",
+        "quantite": 120,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "sucre vanillé",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "levure chimique",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "lait",
+        "quantite": 200,
+        "unite": "ml",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "crème liquide entière",
+        "quantite": 250,
+        "unite": "ml",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "mascarpone",
+        "quantite": 250,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "KitKat Fingers smarties m&ms fraise tagada bonbon bille de chocolat ou Mikado au choix",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "carbonara-legere",
+    "nom": "CARBONARA LÉGÈRE",
+    "origine": "Italien",
+    "type": "Plat",
+    "temps": 25,
+    "base": 1,
+    "ingredients": [
+      {
+        "nom": "spaghetti complets ou semi-complets",
+        "quantite": 400,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "jambon blanc",
+        "quantite": 150,
+        "unite": "g",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 4,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "crème liquide légère 15% MG",
+        "quantite": 20,
+        "unite": "cl",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "parmesan râpé",
+        "quantite": 50,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "fromage blanc 0%",
+        "quantite": 30,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "ail",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "huile d’olive",
+        "quantite": 10,
+        "unite": "g",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "cheesecake-au-citron",
+    "nom": "CHEESECAKE AU CITRON",
+    "origine": "Anglais",
+    "type": "Dessert",
+    "temps": 320,
+    "base": 8,
+    "ingredients": [
+      {
+        "nom": "spéculos",
+        "quantite": 250,
+        "unite": "g",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "beurre doux",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "fromage frais",
+        "quantite": 600,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 200,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 3,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "crème liquide entière",
+        "quantite": 200,
+        "unite": "ml",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "farine",
+        "quantite": 15,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "citron",
+        "quantite": 3,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "extrait de vanille",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "Maïzena",
+        "quantite": 15,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "coulis de fruits rouges",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "framboise",
+        "quantite": 5,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      }
+    ]
+  },
+  {
+    "id": "cookies-avoine-pepites-de-chocolat",
+    "nom": "COOKIES AVOINE & PÉPITES DE CHOCOLAT",
+    "origine": "Américain",
+    "type": "Gouter",
+    "temps": 30,
+    "base": 20,
+    "ingredients": [
+      {
+        "nom": "farine",
+        "quantite": 150,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "flocons d’avoine",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "sucre roux",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "beurre doux",
+        "quantite": 80,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "extrait de vanille",
+        "quantite": 5,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "bicarbonate alimentaire",
+        "quantite": 2.5,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "pépites de chocolat",
+        "quantite": 120,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      }
+    ]
+  },
+  {
+    "id": "mini-quiches-proteinees",
+    "nom": "MINI QUICHES PROTÉINÉES",
+    "origine": "Français",
+    "type": "Petit Déjeuner",
+    "temps": 45,
+    "base": 12,
+    "ingredients": [
+      {
+        "nom": "œuf",
+        "quantite": 3,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "lait écrémé",
+        "quantite": 200,
+        "unite": "ml",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "fromage blanc 0 %",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "jambon blanc ou de dinde",
+        "quantite": 50,
+        "unite": "g",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "emmental râpé",
+        "quantite": 50,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "flocons d’avoine ou son d’avoine",
+        "quantite": 30,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "moutarde douce",
+        "quantite": 15,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "ciboulette ou persil",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      }
+    ]
+  },
+  {
+    "id": "moelleux-au-yaourt-pepites-de-chocolat",
+    "nom": "MOELLEUX AU YAOURT & PÉPITES DE CHOCOLAT",
+    "origine": "Français",
+    "type": "Gouter",
+    "temps": 60,
+    "base": 12,
+    "ingredients": [
+      {
+        "nom": "yaourt nature",
+        "quantite": 125,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 250,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "farine",
+        "quantite": 375,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "huile végétale",
+        "quantite": 62.5,
+        "unite": "ml",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 3,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "levure chimique",
+        "quantite": 11,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "extrait de vanille",
+        "quantite": 5,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "pépites de chocolat",
+        "quantite": 150,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      }
+    ]
+  },
+  {
+    "id": "mousse-au-chocolat",
+    "nom": "MOUSSE AU CHOCOLAT",
+    "origine": "Français",
+    "type": "Dessert",
+    "temps": 140,
+    "base": 8,
+    "ingredients": [
+      {
+        "nom": "chocolat noir",
+        "quantite": 200,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 4,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 70,
+        "unite": "g",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "muffin-anglais-uf-jambon-fromage",
+    "nom": "MUFFIN ANGLAIS ŒUF JAMBON FROMAGE",
+    "origine": "Anglais",
+    "type": "Petit Déjeuner",
+    "temps": 28,
+    "base": 6,
+    "ingredients": [
+      {
+        "nom": "muffin anglais",
+        "quantite": 6,
+        "unite": "piece",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 6,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "jambon blanc",
+        "quantite": 6,
+        "unite": "tranche",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "fromage râpé",
+        "quantite": 60,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "lait",
+        "quantite": 30,
+        "unite": "ml",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "huile",
+        "quantite": 5,
+        "unite": "ml",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "muffin-egg",
+    "nom": "MUFFIN EGG",
+    "origine": "Américain",
+    "type": "Petit Déjeuner",
+    "temps": 37,
+    "base": 12,
+    "ingredients": [
+      {
+        "nom": "œuf",
+        "quantite": 6,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "lait",
+        "quantite": 80,
+        "unite": "ml",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "épinards frais",
+        "quantite": 50,
+        "unite": "g",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "poivron rouge",
+        "quantite": 60,
+        "unite": "g",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "oignon",
+        "quantite": 30,
+        "unite": "g",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "fromage râpé",
+        "quantite": 50,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "huile d’olive",
+        "quantite": 15,
+        "unite": "ml",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "muffin-jambon-fromage",
+    "nom": "MUFFIN JAMBON FROMAGE",
+    "origine": "Français",
+    "type": "Petit Déjeuner",
+    "temps": 35,
+    "base": 12,
+    "ingredients": [
+      {
+        "nom": "œuf",
+        "quantite": 3,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "lait",
+        "quantite": 100,
+        "unite": "ml",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "huile d’olive",
+        "quantite": 60,
+        "unite": "ml",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "yaourt nature",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "jambon blanc",
+        "quantite": 150,
+        "unite": "g",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "fromage râpé",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "farine",
+        "quantite": 180,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "levure chimique",
+        "quantite": 5,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      }
+    ]
+  },
+  {
+    "id": "muffins-proteines",
+    "nom": "MUFFINS PROTÉINÉS",
+    "origine": "Américain",
+    "type": "Petit Déjeuner",
+    "temps": 35,
+    "base": 12,
+    "ingredients": [
+      {
+        "nom": "œuf",
+        "quantite": 2,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "flocons d’avoine",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "fromage blanc 0 % ou yaourt grec",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "banane",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "protéine en poudre",
+        "quantite": 30,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "miel ou sirop d’érable",
+        "quantite": 15,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "levure chimique",
+        "quantite": 5,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "bicarbonate alimentaire",
+        "quantite": 2.5,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "extrait de vanille",
+        "quantite": 5,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "pépites de chocolat noir ou myrtilles",
+        "quantite": 40,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      }
+    ]
+  },
+  {
+    "id": "quiche-epinard-ricotta",
+    "nom": "QUICHE ÉPINARD RICOTTA",
+    "origine": "Français",
+    "type": "Plat",
+    "temps": 90,
+    "base": 1,
+    "ingredients": [
+      {
+        "nom": "farine T55",
+        "quantite": 250,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "beurre doux",
+        "quantite": 125,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 6,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "ricotta",
+        "quantite": 250,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "épinards frais",
+        "quantite": 200,
+        "unite": "g",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "crème fraîche entière",
+        "quantite": 20,
+        "unite": "cl",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "lait entier",
+        "quantite": 10,
+        "unite": "cl",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "emmental râpé",
+        "quantite": 80,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "ail",
+        "quantite": 1,
+        "unite": "gousse",
+        "categorie": "Fruits & légumes"
+      }
+    ]
+  },
+  {
+    "id": "quiche-saumon-epinards",
+    "nom": "QUICHE SAUMON ÉPINARDS",
+    "origine": "Français",
+    "type": "Plat",
+    "temps": 90,
+    "base": 1,
+    "ingredients": [
+      {
+        "nom": "farine T55",
+        "quantite": 250,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "beurre doux",
+        "quantite": 125,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 6,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "crème fraîche entière",
+        "quantite": 20,
+        "unite": "cl",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "lait entier",
+        "quantite": 20,
+        "unite": "cl",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "saumon frais ou fumé",
+        "quantite": 200,
+        "unite": "g",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "épinards frais ou surgelés",
+        "quantite": 200,
+        "unite": "g",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "emmental râpé",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "huile d’olive",
+        "quantite": 10,
+        "unite": "g",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "quiche-tomates",
+    "nom": "QUICHE TOMATES",
+    "origine": "Français",
+    "type": "Plat",
+    "temps": 90,
+    "base": 1,
+    "ingredients": [
+      {
+        "nom": "farine T55",
+        "quantite": 250,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "beurre doux",
+        "quantite": 125,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 6,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "crème fraîche entière",
+        "quantite": 20,
+        "unite": "cl",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "lait entier",
+        "quantite": 20,
+        "unite": "cl",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "tomates",
+        "quantite": 400,
+        "unite": "g",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "emmental râpé",
+        "quantite": 100,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      }
+    ]
+  },
+  {
+    "id": "sauce-tomate-basilic-maison",
+    "nom": "SAUCE TOMATE BASILIC MAISON",
+    "origine": "Italien",
+    "type": "Extra",
+    "temps": 55,
+    "base": 1,
+    "ingredients": [
+      {
+        "nom": "tomates",
+        "quantite": 1500,
+        "unite": "g",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "boîtes de tomates concassées",
+        "quantite": 2,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "ail",
+        "quantite": 2,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 5,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "origan séché",
+        "quantite": 5,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "thym séché",
+        "quantite": 5,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "basilic frais",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      }
+    ]
+  },
+  {
+    "id": "soupe-dharicots-verts-avec-lardons",
+    "nom": "SOUPE D’HARICOTS VERTS AVEC LARDONS",
+    "origine": "Français",
+    "type": "Soupe",
+    "temps": 60,
+    "base": 5,
+    "ingredients": [
+      {
+        "nom": "haricots verts",
+        "quantite": 600,
+        "unite": "g",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "lardons fumés",
+        "quantite": 150,
+        "unite": "g",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "carotte",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "ail",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "bouillon de volaille ou de légumes",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "feuille de laurier",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "crème fraîche épaisse",
+        "quantite": 20,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "fromage râpé",
+        "quantite": 20,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      }
+    ]
+  },
+  {
+    "id": "soupe-de-lentilles-aux-lardons",
+    "nom": "SOUPE DE LENTILLES AUX LARDONS",
+    "origine": "Français",
+    "type": "Soupe",
+    "temps": 80,
+    "base": 5,
+    "ingredients": [
+      {
+        "nom": "lentilles vertes ou brunes",
+        "quantite": 250,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "lardons fumés",
+        "quantite": 150,
+        "unite": "g",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "carottes",
+        "quantite": 2,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 2,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "ail",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "bouillon de volaille ou de légumes",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "feuille de laurier",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "thym",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "crème fraîche épaisse",
+        "quantite": 20,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "moutarde à l’ancienne",
+        "quantite": 5,
+        "unite": "g",
+        "categorie": "Épicerie"
+      }
+    ]
+  },
+  {
+    "id": "soupe-de-poireaux-pommes-de-terre-lardons",
+    "nom": "SOUPE DE POIREAUX, POMMES DE TERRE & LARDONS",
+    "origine": "Français",
+    "type": "Soupe",
+    "temps": 60,
+    "base": 5,
+    "ingredients": [
+      {
+        "nom": "poireaux",
+        "quantite": 700,
+        "unite": "g",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "pommes de terre",
+        "quantite": 500,
+        "unite": "g",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "lardons fumés",
+        "quantite": 150,
+        "unite": "g",
+        "categorie": "Viandes & poissons"
+      },
+      {
+        "nom": "oignon",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "ail",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "bouillon de volaille",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "crème fraîche",
+        "quantite": 100,
+        "unite": "ml",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "huile d’olive",
+        "quantite": 10,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "crème fraîche épaisse",
+        "quantite": 20,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "fromage râpé",
+        "quantite": 20,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      }
+    ]
+  },
+  {
+    "id": "tiramisu",
+    "nom": "TIRAMISU",
+    "origine": "Italien",
+    "type": "Dessert",
+    "temps": 265,
+    "base": 8,
+    "ingredients": [
+      {
+        "nom": "mascarpone",
+        "quantite": 250,
+        "unite": "g",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 3,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "sucre",
+        "quantite": 80,
+        "unite": "g",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "extrait de vanille",
+        "quantite": 5,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "café fort",
+        "quantite": 200,
+        "unite": "ml",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "amaretto",
+        "quantite": 30,
+        "unite": "ml",
+        "categorie": "Épicerie"
+      },
+      {
+        "nom": "biscuit à la cuillère",
+        "quantite": 26,
+        "unite": "piece",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "cacao en poudre non sucré",
+        "quantite": 15,
+        "unite": "g",
+        "categorie": "Boulangerie"
+      }
+    ]
+  },
+  {
+    "id": "toast-avocat-uf",
+    "nom": "TOAST AVOCAT & ŒUF",
+    "origine": "Américain",
+    "type": "Petit Déjeuner",
+    "temps": 10,
+    "base": 1,
+    "ingredients": [
+      {
+        "nom": "pain complet ou aux graines",
+        "quantite": 1,
+        "unite": "tranche",
+        "categorie": "Boulangerie"
+      },
+      {
+        "nom": "avocat",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Fruits & légumes"
+      },
+      {
+        "nom": "œuf",
+        "quantite": 1,
+        "unite": "piece",
+        "categorie": "Autres"
+      },
+      {
+        "nom": "jus de citron",
+        "quantite": 5,
+        "unite": "ml",
+        "categorie": "Fruits & légumes"
+      }
+    ]
+  }
+]
