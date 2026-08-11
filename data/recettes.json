@@ -2,7 +2,7 @@
   {
     "id": "arancini",
     "nom": "ARANCINI",
-    "origine": "Italien",
+    "origine": "Italie",
     "type": "Entrée",
     "temps": 60,
     "base": 4,
@@ -78,7 +78,7 @@
   {
     "id": "bagels-maison",
     "nom": "BAGELS MAISON",
-    "origine": "Français",
+    "origine": "France",
     "type": "Extra",
     "temps": 151,
     "base": 8,
@@ -124,7 +124,7 @@
   {
     "id": "baguette-maison",
     "nom": "BAGUETTE MAISON",
-    "origine": "Français",
+    "origine": "France",
     "type": "Extra",
     "temps": 165,
     "base": 2,
@@ -158,7 +158,7 @@
   {
     "id": "banana-bread-moelleux",
     "nom": "BANANA BREAD MOELLEUX",
-    "origine": "Américain",
+    "origine": "USA",
     "type": "Gouter",
     "temps": 70,
     "base": 12,
@@ -228,7 +228,7 @@
   {
     "id": "beignets-de-carnaval",
     "nom": "BEIGNETS DE CARNAVAL",
-    "origine": "Français",
+    "origine": "France",
     "type": "Gouter",
     "temps": 150,
     "base": 20,
@@ -292,7 +292,7 @@
   {
     "id": "beignets-fourres",
     "nom": "BEIGNETS FOURRÉS",
-    "origine": "Français",
+    "origine": "France",
     "type": "Gouter",
     "temps": 1550,
     "base": 12,
@@ -356,7 +356,7 @@
   {
     "id": "bolognaise-maison",
     "nom": "BOLOGNAISE MAISON",
-    "origine": "Italien",
+    "origine": "Italie",
     "type": "Plat",
     "temps": 105,
     "base": 1,
@@ -414,7 +414,7 @@
   {
     "id": "bonbons-aux-fruits",
     "nom": "BONBONS AUX FRUITS",
-    "origine": "Français",
+    "origine": "France",
     "type": "Gouter",
     "temps": 280,
     "base": 50,
@@ -460,7 +460,7 @@
   {
     "id": "bouchee-a-la-reine",
     "nom": "BOUCHÉE À LA REINE",
-    "origine": "Français",
+    "origine": "France",
     "type": "Plat",
     "temps": 55,
     "base": 6,
@@ -518,7 +518,7 @@
   {
     "id": "bouchees-de-poulet-parmesan",
     "nom": "BOUCHÉES DE POULET PARMESAN",
-    "origine": "Italien",
+    "origine": "Italie",
     "type": "Apéro",
     "temps": 50,
     "base": 25,
@@ -564,7 +564,7 @@
   {
     "id": "boulettes-bbq-aperitif",
     "nom": "BOULETTES BBQ APÉRITIF",
-    "origine": "Américaine",
+    "origine": "USA",
     "type": "Apéro",
     "temps": 40,
     "base": 25,
@@ -628,7 +628,7 @@
   {
     "id": "boulettes-de-buf-aperitif",
     "nom": "BOULETTES DE BŒUF APÉRITIF",
-    "origine": "Française",
+    "origine": "France",
     "type": "Apéro",
     "temps": 40,
     "base": 25,
@@ -698,7 +698,7 @@
   {
     "id": "bratkartoffeln-mit-speck",
     "nom": "BRATKARTOFFELN MIT SPECK",
-    "origine": "Allemande",
+    "origine": "Allemand",
     "type": "Plat",
     "temps": 50,
     "base": 4,
@@ -732,7 +732,7 @@
   {
     "id": "bretzel-aperitif",
     "nom": "BRETZEL APÉRITIF",
-    "origine": "Allemande",
+    "origine": "Allemand",
     "type": "Apéro",
     "temps": 125,
     "base": 40,
@@ -772,7 +772,7 @@
   {
     "id": "bretzel-bites-au-fromage",
     "nom": "BRETZEL BITES AU FROMAGE",
-    "origine": "Américaine",
+    "origine": "USA",
     "type": "Apéro",
     "temps": 135,
     "base": 30,
@@ -818,7 +818,7 @@
   {
     "id": "brioche-maison",
     "nom": "BRIOCHE MAISON",
-    "origine": "Français",
+    "origine": "France",
     "type": "Petit Déjeuner",
     "temps": 230,
     "base": 8,
@@ -870,7 +870,7 @@
   {
     "id": "brookies",
     "nom": "BROOKIES",
-    "origine": "Américain",
+    "origine": "USA",
     "type": "Gouter",
     "temps": 50,
     "base": 12,
@@ -940,7 +940,7 @@
   {
     "id": "brownie-fondant-au-chocolat",
     "nom": "BROWNIE FONDANT AU CHOCOLAT",
-    "origine": "Américain",
+    "origine": "USA",
     "type": "Gouter",
     "temps": 40,
     "base": 5,
@@ -992,7 +992,7 @@
   {
     "id": "buche-de-noel-au-chocolat",
     "nom": "BÛCHE DE NOËL AU CHOCOLAT",
-    "origine": "Française",
+    "origine": "France",
     "type": "Dessert",
     "temps": 140,
     "base": 8,
@@ -1044,7 +1044,7 @@
   {
     "id": "buns-maison",
     "nom": "BUNS MAISON",
-    "origine": "Americain",
+    "origine": "USA",
     "type": "Extra",
     "temps": 150,
     "base": 8,
@@ -1096,7 +1096,7 @@
   {
     "id": "burrito-proteine",
     "nom": "BURRITO PROTÉINÉ",
-    "origine": "Mexicain",
+    "origine": "Mexique",
     "type": "Petit Déjeuner",
     "temps": 30,
     "base": 6,
@@ -1178,7 +1178,7 @@
   {
     "id": "candy-cake",
     "nom": "CANDY CAKE",
-    "origine": "Américaine",
+    "origine": "USA",
     "type": "Dessert",
     "temps": 150,
     "base": 12,
@@ -1238,7 +1238,7 @@
         "categorie": "Produits laitiers"
       },
       {
-        "nom": "KitKat Fingers smarties m&ms fraise tagada bonbon bille de chocolat ou Mikado au choix",
+        "nom": "Bonbon ou chocolat",
         "quantite": 1,
         "unite": "piece",
         "categorie": "Épicerie"
@@ -1248,7 +1248,7 @@
   {
     "id": "carbonara-legere",
     "nom": "CARBONARA LÉGÈRE",
-    "origine": "Italien",
+    "origine": "Italie",
     "type": "Plat",
     "temps": 25,
     "base": 1,
@@ -1388,7 +1388,7 @@
   {
     "id": "cookies-avoine-pepites-de-chocolat",
     "nom": "COOKIES AVOINE & PÉPITES DE CHOCOLAT",
-    "origine": "Américain",
+    "origine": "USA",
     "type": "Gouter",
     "temps": 30,
     "base": 20,
@@ -1446,7 +1446,7 @@
   {
     "id": "mini-quiches-proteinees",
     "nom": "MINI QUICHES PROTÉINÉES",
-    "origine": "Français",
+    "origine": "France",
     "type": "Petit Déjeuner",
     "temps": 45,
     "base": 12,
@@ -1504,7 +1504,7 @@
   {
     "id": "moelleux-au-yaourt-pepites-de-chocolat",
     "nom": "MOELLEUX AU YAOURT & PÉPITES DE CHOCOLAT",
-    "origine": "Français",
+    "origine": "France",
     "type": "Gouter",
     "temps": 60,
     "base": 12,
@@ -1562,7 +1562,7 @@
   {
     "id": "mousse-au-chocolat",
     "nom": "MOUSSE AU CHOCOLAT",
-    "origine": "Français",
+    "origine": "France",
     "type": "Dessert",
     "temps": 140,
     "base": 8,
@@ -1636,7 +1636,7 @@
   {
     "id": "muffin-egg",
     "nom": "MUFFIN EGG",
-    "origine": "Américain",
+    "origine": "USA",
     "type": "Petit Déjeuner",
     "temps": 37,
     "base": 12,
@@ -1688,7 +1688,7 @@
   {
     "id": "muffin-jambon-fromage",
     "nom": "MUFFIN JAMBON FROMAGE",
-    "origine": "Français",
+    "origine": "France",
     "type": "Petit Déjeuner",
     "temps": 35,
     "base": 12,
@@ -1746,7 +1746,7 @@
   {
     "id": "muffins-proteines",
     "nom": "MUFFINS PROTÉINÉS",
-    "origine": "Américain",
+    "origine": "USA",
     "type": "Petit Déjeuner",
     "temps": 35,
     "base": 12,
@@ -1816,7 +1816,7 @@
   {
     "id": "quiche-epinard-ricotta",
     "nom": "QUICHE ÉPINARD RICOTTA",
-    "origine": "Français",
+    "origine": "France",
     "type": "Plat",
     "temps": 90,
     "base": 1,
@@ -1880,7 +1880,7 @@
   {
     "id": "quiche-saumon-epinards",
     "nom": "QUICHE SAUMON ÉPINARDS",
-    "origine": "Français",
+    "origine": "France",
     "type": "Plat",
     "temps": 90,
     "base": 1,
@@ -1944,7 +1944,7 @@
   {
     "id": "quiche-tomates",
     "nom": "QUICHE TOMATES",
-    "origine": "Français",
+    "origine": "France",
     "type": "Plat",
     "temps": 90,
     "base": 1,
@@ -1996,7 +1996,7 @@
   {
     "id": "sauce-tomate-basilic-maison",
     "nom": "SAUCE TOMATE BASILIC MAISON",
-    "origine": "Italien",
+    "origine": "Italie",
     "type": "Extra",
     "temps": 55,
     "base": 1,
@@ -2054,7 +2054,7 @@
   {
     "id": "soupe-dharicots-verts-avec-lardons",
     "nom": "SOUPE D’HARICOTS VERTS AVEC LARDONS",
-    "origine": "Français",
+    "origine": "France",
     "type": "Soupe",
     "temps": 60,
     "base": 5,
@@ -2124,7 +2124,7 @@
   {
     "id": "soupe-de-lentilles-aux-lardons",
     "nom": "SOUPE DE LENTILLES AUX LARDONS",
-    "origine": "Français",
+    "origine": "France",
     "type": "Soupe",
     "temps": 80,
     "base": 5,
@@ -2200,7 +2200,7 @@
   {
     "id": "soupe-de-poireaux-pommes-de-terre-lardons",
     "nom": "SOUPE DE POIREAUX, POMMES DE TERRE & LARDONS",
-    "origine": "Français",
+    "origine": "France",
     "type": "Soupe",
     "temps": 60,
     "base": 5,
@@ -2270,7 +2270,7 @@
   {
     "id": "tiramisu",
     "nom": "TIRAMISU",
-    "origine": "Italien",
+    "origine": "Italie",
     "type": "Dessert",
     "temps": 265,
     "base": 8,
@@ -2328,7 +2328,7 @@
   {
     "id": "toast-avocat-uf",
     "nom": "TOAST AVOCAT & ŒUF",
-    "origine": "Américain",
+    "origine": "USA",
     "type": "Petit Déjeuner",
     "temps": 10,
     "base": 1,
