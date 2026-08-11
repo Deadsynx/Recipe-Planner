@@ -68,5 +68,22 @@ $("updateRecipes").onclick = updateRecipesFromServer;
 
 $("export").onclick=()=>{const blob=new Blob([JSON.stringify({format:"RecipePlannerBackup",version:1,state},null,2)],{type:"application/json"}),a=document.createElement("a"),d=new Date();a.href=URL.createObjectURL(blob);a.download=`RecipePlanner_backup_${String(d.getDate()).padStart(2,"0")}-${String(d.getMonth()+1).padStart(2,"0")}-${d.getFullYear()}.json`;a.click();URL.revokeObjectURL(a.href)};
 $("import").onchange=async e=>{try{const j=JSON.parse(await e.target.files[0].text()),s=j.state||j;if(!Array.isArray(s.recipes))throw 0;state={recipes:s.recipes,agenda:s.agenda||emptyAgenda(),extras:s.extras||[],shopping:s.shopping||[]};await save();fill();renderAgenda();renderExtras();renderShop();show(match()[0]||null);toast("Sauvegarde restaurée")}catch{toast("JSON invalide")}e.target.value=""};
-if("serviceWorker" in navigator)addEventListener("load",()=>navigator.serviceWorker.register("./service-worker.js"));
+if("serviceWorker" in navigator){
+  let refreshing = false;
+
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (refreshing) return;
+    refreshing = true;
+    window.location.reload();
+  });
+
+  window.addEventListener("load", async () => {
+    try{
+      const registration = await navigator.serviceWorker.register("./service-worker.js");
+      await registration.update();
+    }catch(err){
+      console.error("Service Worker :", err);
+    }
+  });
+}
 init();

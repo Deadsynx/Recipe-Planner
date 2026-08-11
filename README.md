@@ -35,3 +35,13 @@ Il :
 - ne touche ni à l'agenda, ni aux Extras, ni à la liste de courses.
 
 Cette archive inclut également la base actuelle convertie depuis les fichiers TXT reçus.
+
+
+## V0.2.1 — Correction des mises à jour PWA
+
+- Supprime automatiquement les anciens caches `recipe-planner-*`.
+- `skipWaiting()` active immédiatement le nouveau Service Worker.
+- `clients.claim()` lui donne immédiatement le contrôle des pages ouvertes.
+- Le navigateur tente d'abord le réseau puis utilise le cache hors ligne.
+- Lorsqu'un nouveau Service Worker prend le contrôle, la page se recharge une fois.
+- La version `V0.2.1` est affichée sous le titre pour vérifier immédiatement que le déploiement GitHub est bien celui attendu.
