@@ -1,4 +1,4 @@
-const CACHE_NAME = "recipe-planner-v0.2.1";
+const CACHE_NAME = "recipe-planner-v0.2.2";
 const CACHE_PREFIX = "recipe-planner-";
 
 const ASSETS = [

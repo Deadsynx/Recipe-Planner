@@ -28,7 +28,17 @@ $("genShop").onclick=genShop;
 $("madd").onclick=async()=>{const n=$("mp").value.trim();if(!n)return;state.shopping.push({id:uid(),nom:n,quantite:+$("mq").value||1,unite:$("mu").value,categorie:$("mc").value,checked:false});$("mp").value="";await save();renderShop()};
 $("iadd").onclick=()=>{const n=$("in").value.trim();if(!n)return;draft.push({nom:n,quantite:+$("iq").value||1,unite:$("iu").value,categorie:$("ic").value});$("in").value="";renderDraft()};
 function renderDraft(){$("draft").innerHTML="";draft.forEach((x,i)=>{const d=document.createElement("div");d.className="row";d.innerHTML=`<span>${x.quantite} ${x.unite} — ${x.nom} — ${x.categorie}</span>`;const b=document.createElement("button");b.textContent="Retirer";b.onclick=()=>{draft.splice(i,1);renderDraft()};d.appendChild(b);$("draft").appendChild(d)})}
-$("saveRecipe").onclick=async()=>{const nom=$("nn").value.trim(),origine=$("no").value.trim();if(!nom||!origine||!draft.length){toast("Complète la recette");return}state.recipes.push({id:uid(),nom,origine,type:$("nt").value,temps:+$("ntime").value||0,base:Math.max(1,+$("nbase").value||1),ingredients:[...draft]});draft=[];renderDraft();fill();await save();toast("Recette enregistrée")};
+$("saveRecipe").onclick=async()=>{const nom=$("nn").value.trim(),origine=$("no").value.trim();if(!nom||!origine||!draft.length){toast("Complète la recette");return}state.recipes.push({id:uid(),source:"local",nom,origine,type:$("nt").value,temps:+$("ntime").value||0,base:Math.max(1,+$("nbase").value||1),ingredients:[...draft]});draft=[];renderDraft();fill();await save();toast("Recette enregistrée")};
+
+function isLocalRecipe(recipe){
+  if(recipe && recipe.source === "local") return true;
+
+  const id = recipe?.id || "";
+  const uuidLike = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(id);
+  const fallbackLike = /^\d{10,}-0\.\d+$/.test(id);
+
+  return uuidLike || fallbackLike;
+}
 
 async function updateRecipesFromServer(){
   try{
@@ -38,26 +48,41 @@ async function updateRecipesFromServer(){
     const incoming = await response.json();
     if(!Array.isArray(incoming)) throw new Error("Format recettes.json invalide");
 
-    const currentById = new Map(state.recipes.map(recipe => [recipe.id, recipe]));
+    const localRecipes = state.recipes
+      .filter(isLocalRecipe)
+      .map(recipe => ({...recipe, source:"local"}));
+
+    const serverRecipes = incoming
+      .filter(recipe => recipe && recipe.id)
+      .map(recipe => ({...recipe, source:"server"}));
+
+    const previousServerIds = new Set(
+      state.recipes
+        .filter(recipe => !isLocalRecipe(recipe))
+        .map(recipe => recipe.id)
+    );
+    const newServerIds = new Set(serverRecipes.map(recipe => recipe.id));
+
     let added = 0;
     let updated = 0;
+    let removed = 0;
 
-    incoming.forEach(recipe => {
-      if(!recipe || !recipe.id) return;
-      if(currentById.has(recipe.id)) updated++;
+    serverRecipes.forEach(recipe => {
+      if(previousServerIds.has(recipe.id)) updated++;
       else added++;
-      currentById.set(recipe.id, recipe);
     });
 
-    // Les recettes locales créées manuellement sont conservées si le serveur
-    // ne possède pas de recette avec le même id.
-    state.recipes = [...currentById.values()];
+    previousServerIds.forEach(id => {
+      if(!newServerIds.has(id)) removed++;
+    });
+
+    state.recipes = [...serverRecipes, ...localRecipes];
 
     await save();
     fill();
     show(match()[0] || null);
 
-    toast(`${added} ajoutée(s), ${updated} mise(s) à jour`);
+    toast(`${added} ajoutée(s), ${updated} mise(s) à jour, ${removed} supprimée(s)`);
   }catch(err){
     console.error("Mise à jour recettes :", err);
     toast("Échec de la mise à jour");

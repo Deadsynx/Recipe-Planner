@@ -45,3 +45,18 @@ Cette archive inclut également la base actuelle convertie depuis les fichiers T
 - Le navigateur tente d'abord le réseau puis utilise le cache hors ligne.
 - Lorsqu'un nouveau Service Worker prend le contrôle, la page se recharge une fois.
 - La version `V0.2.1` est affichée sous le titre pour vérifier immédiatement que le déploiement GitHub est bien celui attendu.
+
+
+## V0.2.2 — Origines synchronisées avec la base
+
+Le menu `Origine` est entièrement construit à partir des recettes réellement présentes.
+
+Lors de `Mettre à jour les recettes` :
+- le JSON serveur devient la source officielle des recettes serveur ;
+- les nouvelles recettes sont ajoutées ;
+- les recettes existantes sont mises à jour ;
+- les recettes serveur supprimées du JSON disparaissent aussi localement ;
+- les recettes ajoutées manuellement sont conservées ;
+- le menu Origine est reconstruit immédiatement.
+
+Ainsi, une origine absente de la base officielle disparaît du menu après synchronisation.
